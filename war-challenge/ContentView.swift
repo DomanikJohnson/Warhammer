@@ -33,9 +33,25 @@ struct ContentView: View {
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 100, height: 100, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                 Spacer()
+                HStack{
+                    Spacer()
+                    VStack{
+                        Text("Player")
+                        Text("0")
+                    }
+                    Spacer()
+                    VStack{
+                        Text("CPU")
+                        Text("0")
+                    }
+                    Spacer()
+                    
+                }
+                Spacer()
             }
         }
         .ignoresSafeArea()
+        
 
     }
 }
