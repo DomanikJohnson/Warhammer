@@ -46,9 +46,6 @@ struct ContentView: View {
                     }else {
                         cpuScore += 1
                     }
-                    // Update the score
-//                    playerScore += 1
-//                    cpuScore += 1
                 }, label: {
                     Image("dealbutton")
                         .resizable()
